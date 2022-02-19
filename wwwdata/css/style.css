@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;700&display=swap');
+
+html {
+    background: url('/images/background.jpg') no-repeat fixed center center/cover;
+    height: 100%;
+}
+
+body {
+    font-family: 'Oxanium', cursive;
+    font-size: 15px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
