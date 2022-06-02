@@ -29,10 +29,10 @@ services:
     depends_on:
       - dnsmasq
     ports:
-      - 51820:51820/udp
+      - 53:53/udp
       - 51821:51821/tcp
     environment:
-      - WG_PORT=51820
+      - WG_PORT=53
       - WG_DEFAULT_ADDRESS=10.44.0.x
       - WG_DEFAULT_DNS=172.32.1.3
       - WG_ALLOWED_IPS=172.32.1.0/24, 10.44.0.1/32
