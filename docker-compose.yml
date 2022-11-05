@@ -29,7 +29,8 @@ services:
     depends_on:
       - dnsmasq
     ports:
-      - 53:53/udp
+      - 53:51820/udp
+      - 51820:51820/udp
       - 51821:51821/tcp
     environment:
       - WG_PORT=53
